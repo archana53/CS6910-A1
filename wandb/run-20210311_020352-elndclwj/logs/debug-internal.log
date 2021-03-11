@@ -1,0 +1,217 @@
+2021-03-11 02:03:52,575 INFO    MainThread:42435 [internal.py:wandb_internal():88] W&B internal server running at pid: 42435, started at: 2021-03-11 02:03:52.575498
+2021-03-11 02:03:52,577 INFO    WriterThread:42435 [datastore.py:open_for_write():77] open: /home/krishna/iit/sem6/dl/CS6910-A1/wandb/run-20210311_020352-elndclwj/run-elndclwj.wandb
+2021-03-11 02:03:52,577 DEBUG   SenderThread:42435 [sender.py:send():161] send: header
+2021-03-11 02:03:52,577 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: check_version
+2021-03-11 02:03:52,577 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:03:52,577 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: check_version
+2021-03-11 02:03:52,704 DEBUG   SenderThread:42435 [sender.py:send():161] send: run
+2021-03-11 02:03:53,148 INFO    SenderThread:42435 [sender.py:_start_run_threads():635] run started: elndclwj with start time 1615408432
+2021-03-11 02:03:53,148 DEBUG   SenderThread:42435 [sender.py:send():161] send: summary
+2021-03-11 02:03:53,149 INFO    SenderThread:42435 [sender.py:_save_file():769] saving file wandb-summary.json with policy end
+2021-03-11 02:03:53,151 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: run_start
+2021-03-11 02:03:54,117 DEBUG   HandlerThread:42435 [meta.py:__init__():34] meta init
+2021-03-11 02:03:54,117 DEBUG   HandlerThread:42435 [meta.py:__init__():48] meta init done
+2021-03-11 02:03:54,117 DEBUG   HandlerThread:42435 [meta.py:probe():190] probe
+2021-03-11 02:03:54,123 DEBUG   HandlerThread:42435 [meta.py:_setup_git():180] setup git
+2021-03-11 02:03:54,137 DEBUG   HandlerThread:42435 [meta.py:_setup_git():187] setup git done
+2021-03-11 02:03:54,137 DEBUG   HandlerThread:42435 [meta.py:_save_pip():52] save pip
+2021-03-11 02:03:54,138 DEBUG   HandlerThread:42435 [meta.py:_save_pip():66] save pip done
+2021-03-11 02:03:54,138 DEBUG   HandlerThread:42435 [meta.py:probe():231] probe done
+2021-03-11 02:03:54,140 DEBUG   SenderThread:42435 [sender.py:send():161] send: files
+2021-03-11 02:03:54,140 INFO    SenderThread:42435 [sender.py:_save_file():769] saving file wandb-metadata.json with policy now
+2021-03-11 02:03:54,145 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 02:03:54,145 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:03:54,145 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 02:03:54,569 DEBUG   SenderThread:42435 [sender.py:send():161] send: run
+2021-03-11 02:03:54,979 INFO    SenderThread:42435 [sender.py:send_run():541] updated run: elndclwj
+2021-03-11 02:04:09,570 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 02:04:09,571 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:04:09,571 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 02:04:22,333 DEBUG   SenderThread:42435 [sender.py:send():161] send: stats
+2021-03-11 02:04:25,057 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 02:04:25,057 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:04:25,057 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 02:04:35,706 DEBUG   SenderThread:42435 [sender.py:send():161] send: history
+2021-03-11 02:04:35,706 DEBUG   SenderThread:42435 [sender.py:send():161] send: summary
+2021-03-11 02:04:35,708 INFO    SenderThread:42435 [sender.py:_save_file():769] saving file wandb-summary.json with policy end
+2021-03-11 02:04:40,509 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 02:04:40,510 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:04:40,510 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 02:04:52,559 DEBUG   SenderThread:42435 [sender.py:send():161] send: stats
+2021-03-11 02:04:55,873 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 02:04:55,874 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:04:55,874 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 02:05:12,251 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 02:05:12,251 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:05:12,251 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 02:05:22,616 DEBUG   SenderThread:42435 [sender.py:send():161] send: history
+2021-03-11 02:05:22,616 DEBUG   SenderThread:42435 [sender.py:send():161] send: summary
+2021-03-11 02:05:22,619 INFO    SenderThread:42435 [sender.py:_save_file():769] saving file wandb-summary.json with policy end
+2021-03-11 02:05:22,816 DEBUG   SenderThread:42435 [sender.py:send():161] send: stats
+2021-03-11 02:05:27,634 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 02:05:27,634 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:05:27,634 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 02:05:42,987 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 02:05:42,988 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:05:42,988 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 02:05:53,077 DEBUG   SenderThread:42435 [sender.py:send():161] send: stats
+2021-03-11 02:05:58,423 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 02:05:58,424 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:05:58,424 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 02:06:13,900 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 02:06:13,900 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:06:13,900 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 02:06:17,760 DEBUG   SenderThread:42435 [sender.py:send():161] send: history
+2021-03-11 02:06:17,760 DEBUG   SenderThread:42435 [sender.py:send():161] send: summary
+2021-03-11 02:06:17,763 INFO    SenderThread:42435 [sender.py:_save_file():769] saving file wandb-summary.json with policy end
+2021-03-11 02:06:23,340 DEBUG   SenderThread:42435 [sender.py:send():161] send: stats
+2021-03-11 02:06:29,283 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 02:06:29,283 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:06:29,283 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 02:06:44,705 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 02:06:44,705 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:06:44,705 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 02:06:53,605 DEBUG   SenderThread:42435 [sender.py:send():161] send: stats
+2021-03-11 02:07:00,199 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 02:07:00,200 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 02:07:00,200 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 02:07:08,305 DEBUG   SenderThread:42435 [sender.py:send():161] send: history
+2021-03-11 02:07:08,305 DEBUG   SenderThread:42435 [sender.py:send():161] send: summary
+2021-03-11 02:07:08,307 INFO    SenderThread:42435 [sender.py:_save_file():769] saving file wandb-summary.json with policy end
+2021-03-11 09:03:34,119 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 09:03:34,119 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 09:03:34,119 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 09:03:37,639 ERROR   SenderThread:42435 [retry.py:__call__():111] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/urllib3/connectionpool.py", line 976, in _validate_conn
+    conn.connect()
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/urllib3/connection.py", line 308, in connect
+    conn = self._new_conn()
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7ff8cc5953d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/urllib3/connectionpool.py", line 724, in urlopen
+    retries = retries.increment(
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff8cc5953d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/wandb/old/retry.py", line 96, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 123, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/krishna/anaconda3/envs/yrf/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff8cc5953d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2021-03-11 09:04:13,349 DEBUG   SenderThread:42435 [sender.py:send():161] send: stats
+2021-03-11 09:04:14,337 DEBUG   SenderThread:42435 [sender.py:send():161] send: history
+2021-03-11 09:04:14,337 DEBUG   SenderThread:42435 [sender.py:send():161] send: summary
+2021-03-11 09:04:14,337 INFO    SenderThread:42435 [sender.py:_save_file():769] saving file wandb-summary.json with policy end
+2021-03-11 09:04:17,325 DEBUG   SenderThread:42435 [sender.py:send():161] send: stats
+2021-03-11 09:04:28,375 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 09:04:28,376 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 09:04:28,376 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 09:04:43,867 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: status
+2021-03-11 09:04:43,867 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 09:04:43,867 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: status
+2021-03-11 09:04:45,430 WARNING MainThread:42435 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2021-03-11 09:04:45,458 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: pause
+2021-03-11 09:04:45,458 INFO    HandlerThread:42435 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-11 09:04:45,520 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-11 09:04:45,520 DEBUG   SenderThread:42435 [sender.py:send():161] send: telemetry
+2021-03-11 09:04:45,943 DEBUG   SenderThread:42435 [sender.py:send():161] send: exit
+2021-03-11 09:04:45,943 INFO    SenderThread:42435 [sender.py:send_exit():239] handling exit code: 1
+2021-03-11 09:04:45,943 INFO    SenderThread:42435 [sender.py:send_exit():247] send defer
+2021-03-11 09:04:45,944 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 09:04:45,944 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: poll_exit
+2021-03-11 09:04:45,944 DEBUG   SenderThread:42435 [sender.py:send():161] send: stats
+2021-03-11 09:04:45,944 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: defer
+2021-03-11 09:04:45,944 INFO    HandlerThread:42435 [handler.py:handle_request_defer():115] handle defer: 0
+2021-03-11 09:04:45,944 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 09:04:45,944 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: defer
+2021-03-11 09:04:45,945 INFO    SenderThread:42435 [sender.py:send_request_defer():256] handle sender defer: 0
+2021-03-11 09:04:45,945 INFO    SenderThread:42435 [sender.py:send_request_defer():292] send defer: 1
+2021-03-11 09:04:45,945 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: defer
+2021-03-11 09:04:45,945 INFO    HandlerThread:42435 [handler.py:handle_request_defer():115] handle defer: 1
+2021-03-11 09:04:45,945 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 09:04:45,945 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: defer
+2021-03-11 09:04:45,945 INFO    SenderThread:42435 [sender.py:send_request_defer():256] handle sender defer: 1
+2021-03-11 09:04:45,945 INFO    SenderThread:42435 [sender.py:send_request_defer():292] send defer: 2
+2021-03-11 09:04:45,945 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: defer
+2021-03-11 09:04:45,945 INFO    HandlerThread:42435 [handler.py:handle_request_defer():115] handle defer: 2
+2021-03-11 09:04:45,945 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 09:04:45,945 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: defer
+2021-03-11 09:04:45,946 INFO    SenderThread:42435 [sender.py:send_request_defer():256] handle sender defer: 2
+2021-03-11 09:04:45,946 INFO    SenderThread:42435 [sender.py:send_request_defer():292] send defer: 3
+2021-03-11 09:04:45,946 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: defer
+2021-03-11 09:04:45,946 INFO    HandlerThread:42435 [handler.py:handle_request_defer():115] handle defer: 3
+2021-03-11 09:04:45,946 DEBUG   SenderThread:42435 [sender.py:send():161] send: summary
+2021-03-11 09:04:45,946 INFO    SenderThread:42435 [sender.py:_save_file():769] saving file wandb-summary.json with policy end
+2021-03-11 09:04:45,946 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 09:04:45,946 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: defer
+2021-03-11 09:04:45,946 INFO    SenderThread:42435 [sender.py:send_request_defer():256] handle sender defer: 3
+2021-03-11 09:04:45,946 INFO    SenderThread:42435 [sender.py:send_request_defer():292] send defer: 4
+2021-03-11 09:04:45,947 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: defer
+2021-03-11 09:04:45,947 INFO    HandlerThread:42435 [handler.py:handle_request_defer():115] handle defer: 4
+2021-03-11 09:04:45,947 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 09:04:45,947 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: defer
+2021-03-11 09:04:45,947 INFO    SenderThread:42435 [sender.py:send_request_defer():256] handle sender defer: 4
+2021-03-11 09:04:46,139 INFO    SenderThread:42435 [sender.py:send_request_defer():292] send defer: 5
+2021-03-11 09:04:46,144 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: defer
+2021-03-11 09:04:46,144 INFO    HandlerThread:42435 [handler.py:handle_request_defer():115] handle defer: 5
+2021-03-11 09:04:46,144 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 09:04:46,144 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: defer
+2021-03-11 09:04:46,144 INFO    SenderThread:42435 [sender.py:send_request_defer():256] handle sender defer: 5
+2021-03-11 09:04:46,144 INFO    SenderThread:42435 [sender.py:send_request_defer():292] send defer: 6
+2021-03-11 09:04:46,144 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: defer
+2021-03-11 09:04:46,144 INFO    HandlerThread:42435 [handler.py:handle_request_defer():115] handle defer: 6
+2021-03-11 09:04:46,145 DEBUG   SenderThread:42435 [sender.py:send():161] send: request
+2021-03-11 09:04:46,145 DEBUG   SenderThread:42435 [sender.py:send_request():170] send_request: defer
+2021-03-11 09:04:46,145 INFO    SenderThread:42435 [sender.py:send_request_defer():256] handle sender defer: 6
+2021-03-11 09:04:47,950 DEBUG   HandlerThread:42435 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-11 09:04:48,939 WARNING MainThread:42435 [internal.py:wandb_internal():146] Internal process interrupt: 2
+2021-03-11 09:04:48,939 ERROR   MainThread:42435 [internal.py:wandb_internal():149] Internal process interrupted.
+2021-03-11 09:04:48,947 INFO    WriterThread:42435 [datastore.py:close():258] close: /home/krishna/iit/sem6/dl/CS6910-A1/wandb/run-20210311_020352-elndclwj/run-elndclwj.wandb
+2021-03-11 09:04:48,951 INFO    HandlerThread:42435 [handler.py:finish():535] shutting down handler
+2021-03-11 09:19:44,849 WARNING Thread-5  :42435 [util.py:request_with_retry():758] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=None). args: ('https://api.wandb.ai/files/notarchana/CS6910-A1/elndclwj/file_stream',), kwargs: {'json': {'files': {'output.log': {'offset': 5, 'content': ['2021-03-10T20:37:08.307832 Epoch 3 done: Loss = 0.5614972909632486\n']}, 'wandb-summary.json': {'offset': 0, 'content': ['{"train accuracy": 0.8114791666666666, "validation accuracy": 0.8071666666666667, "train loss": 0.5614972909632486, "val loss": 0.5761641780202542, "_runtime": 196, "_timestamp": 1615408628, "_step": 3}']}}}}
+2021-03-11 09:19:50,066 INFO    SenderThread:42435 [sender.py:send_request_defer():292] send defer: 7
+2021-03-11 09:19:50,066 INFO    SenderThread:42435 [sender.py:finish():872] shutting down sender
+2021-03-11 09:19:50,068 INFO    MainThread:42435 [internal.py:handle_exit():78] Internal process exited

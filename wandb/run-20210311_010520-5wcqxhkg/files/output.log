@@ -1,0 +1,8 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+model building done
+Epoch 0 done: Loss = 13.928283803183357
+Epoch 1 done: Loss = 13.06246999567502
+Epoch 2 done: Loss = 12.658851550454703
+Epoch 3 done: Loss = 12.450816797634621
+Epoch 4 done: Loss = 12.435829606907811
+model training done

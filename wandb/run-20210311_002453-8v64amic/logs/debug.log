@@ -1,0 +1,37 @@
+2021-03-11 00:24:53,344 INFO    Thread-15 :38431 [wandb_setup.py:_flush():69] setting env: {'entity': 'notarchana', 'project': 'CS6910-A1', 'root_dir': '/home/krishna/iit/sem6/dl/CS6910-A1', 'sweep_id': 'sn6bjnav', 'run_id': '8v64amic', 'sweep_param_path': '/home/krishna/iit/sem6/dl/CS6910-A1/wandb/sweep-sn6bjnav/config-8v64amic.yaml'}
+2021-03-11 00:24:53,344 INFO    Thread-15 :38431 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-11 00:24:53,345 INFO    Thread-15 :38431 [wandb_init.py:_log_setup():334] Logging user logs to /home/krishna/iit/sem6/dl/CS6910-A1/wandb/run-20210311_002453-8v64amic/logs/debug.log
+2021-03-11 00:24:53,345 INFO    Thread-15 :38431 [wandb_init.py:_log_setup():335] Logging internal logs to /home/krishna/iit/sem6/dl/CS6910-A1/wandb/run-20210311_002453-8v64amic/logs/debug-internal.log
+2021-03-11 00:24:53,346 INFO    Thread-15 :38431 [wandb_init.py:_jupyter_setup():285] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f28fc314370>
+2021-03-11 00:24:53,347 INFO    Thread-15 :38431 [wandb_init.py:init():367] calling init triggers
+2021-03-11 00:24:53,347 INFO    Thread-15 :38431 [wandb_init.py:init():372] wandb.init called with sweep_config: {'activation': 'sigmoid', 'batch_size': 64, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers': 5, 'lr': 0.0001, 'optimiser': 'adam', 'weight_init': 'random'}
+config: {'epochs': 5, 'hidden_layers': 3, 'lr': 0.001, 'activation': 'relu', 'optimiser': 'sgd', 'batch_size': 32, 'weight_init': 'random'}
+2021-03-11 00:24:53,347 INFO    Thread-15 :38431 [wandb_init.py:init():416] starting backend
+2021-03-11 00:24:53,348 INFO    Thread-15 :38431 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-03-11 00:24:53,355 INFO    Thread-15 :38431 [backend.py:ensure_launched():123] starting backend process...
+2021-03-11 00:24:53,397 INFO    Thread-15 :38431 [backend.py:ensure_launched():127] started backend process with pid: 40199
+2021-03-11 00:24:53,400 INFO    Thread-15 :38431 [wandb_init.py:init():421] backend started and connected
+2021-03-11 00:24:53,424 INFO    Thread-15 :38431 [wandb_run.py:_config_callback():733] config_cb None None {'activation': 'sigmoid', 'batch_size': 64, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers': 5, 'lr': 0.0001, 'optimiser': 'adam', 'weight_init': 'random'}
+2021-03-11 00:24:53,425 INFO    Thread-15 :38431 [wandb_init.py:init():461] updated telemetry
+2021-03-11 00:24:53,425 INFO    Thread-15 :38431 [wandb_init.py:init():480] communicating current version
+2021-03-11 00:24:54,246 INFO    Thread-15 :38431 [wandb_init.py:init():485] got version response 
+2021-03-11 00:24:54,246 INFO    Thread-15 :38431 [wandb_init.py:init():493] communicating run to backend with 30 second timeout
+2021-03-11 00:24:54,883 INFO    Thread-15 :38431 [wandb_init.py:init():518] starting run threads in backend
+2021-03-11 00:24:55,902 INFO    Thread-15 :38431 [wandb_run.py:_console_start():1480] atexit reg
+2021-03-11 00:24:55,903 INFO    Thread-15 :38431 [wandb_run.py:_redirect():1343] redirect: SettingsConsole.WRAP
+2021-03-11 00:24:55,903 INFO    Thread-15 :38431 [wandb_run.py:_redirect():1378] Wrapping output streams.
+2021-03-11 00:24:55,903 INFO    Thread-15 :38431 [wandb_run.py:_redirect():1394] Redirects installed.
+2021-03-11 00:24:55,903 INFO    Thread-15 :38431 [wandb_init.py:init():542] run started, returning control to user process
+2021-03-11 00:36:50,435 INFO    Thread-15 :38431 [wandb_config.py:__setitem__():141] config set train_accuracy = 0.1 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f28fcc1ae80>>
+2021-03-11 00:36:50,436 INFO    Thread-15 :38431 [wandb_run.py:_config_callback():733] config_cb train_accuracy 0.1 None
+2021-03-11 00:36:52,097 INFO    Thread-15 :38431 [wandb_config.py:__setitem__():141] config set val_accuracy = 0.1 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f28fcc1ae80>>
+2021-03-11 00:36:52,097 INFO    Thread-15 :38431 [wandb_run.py:_config_callback():733] config_cb val_accuracy 0.1 None
+2021-03-11 00:36:54,447 INFO    Thread-15 :38431 [wandb_config.py:__setitem__():141] config set test_accuracy = 0.1 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f28fcc1ae80>>
+2021-03-11 00:36:54,448 INFO    Thread-15 :38431 [wandb_run.py:_config_callback():733] config_cb test_accuracy 0.1 None
+2021-03-11 00:37:07,659 INFO    Thread-15 :38431 [wandb_config.py:__setitem__():141] config set train_loss = 2.0678386596486793 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f28fcc1ae80>>
+2021-03-11 00:37:07,660 INFO    Thread-15 :38431 [wandb_run.py:_config_callback():733] config_cb train_loss 2.0678386596486793 None
+2021-03-11 00:37:09,086 INFO    Thread-15 :38431 [wandb_config.py:__setitem__():141] config set val_loss = 2.064432879725111 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f28fcc1ae80>>
+2021-03-11 00:37:09,087 INFO    Thread-15 :38431 [wandb_run.py:_config_callback():733] config_cb val_loss 2.064432879725111 None
+2021-03-11 00:37:11,797 INFO    Thread-15 :38431 [wandb_config.py:__setitem__():141] config set test_loss = 2.071244646361525 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f28fcc1ae80>>
+2021-03-11 00:37:11,798 INFO    Thread-15 :38431 [wandb_run.py:_config_callback():733] config_cb test_loss 2.071244646361525 None
+2021-03-11 00:37:11,800 INFO    Thread-15 :38431 [wandb_run.py:finish():1139] finishing run notarchana/CS6910-A1/8v64amic

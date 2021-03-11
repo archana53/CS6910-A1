@@ -1,0 +1,26 @@
+{
+    "os": "Linux-5.4.0-66-generic-x86_64-with-glibc2.10",
+    "python": "3.8.3",
+    "heartbeatAt": "2021-03-10T19:35:23.367202",
+    "startedAt": "2021-03-10T19:35:20.731678",
+    "docker": null,
+    "gpu": "GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/krishna/.local/share/jupyter/runtime/kernel-1546ca01-0631-4293-ba5a-541f0a4f30e6.json"
+    ],
+    "state": "running",
+    "program": "CS6910-A1/assignment1.ipynb",
+    "root": "/home/krishna/iit/sem6/dl/CS6910-A1",
+    "git": {
+        "remote": "https://github.com/archana53/CS6910-A1.git",
+        "commit": "68d236f60ba1b13a5f320c907f6ad6416e09faa5"
+    },
+    "email": "cs18b021@smail.iitm.ac.in",
+    "host": "krishna-Predator",
+    "username": "krishna",
+    "executable": "/home/krishna/anaconda3/envs/yrf/bin/python"
+}
