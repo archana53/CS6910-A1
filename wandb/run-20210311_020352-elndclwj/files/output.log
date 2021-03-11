@@ -1,8 +1,0 @@
-[34m[1mwandb[0m: [33mWARNING[0m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
-model building done
-Epoch 0 done: Loss = 0.6949109651842702
-Epoch 1 done: Loss = 0.6151447954428878
-Epoch 2 done: Loss = 0.5827363076020564
-Epoch 3 done: Loss = 0.5614972909632486
-Epoch 4 done: Loss = 0.5472181759951829
-[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
